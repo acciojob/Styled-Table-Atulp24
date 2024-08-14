@@ -6,10 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+		table, thead, tbody, tr{
+		  border: 2px solid black;
+		  border-spacing: 2px;
+		  border-collapse: collapse;
+		}
+		.table-head{
+		  background-color: blue;
+		  text-align: center;
+		  border-collapse: collapse;
+		}
+		.first-row{
+		  text-align: center;
+		}
+		.second-row{
+		  background-color: grey;
+		  text-align: center;
+		}
+		.third-row{
+		  text-align: center;
+		}
+		.fourth-row{
+		  background-color: grey;
+		  text-align: center;
+		}
+	</style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <table>
+		<thead class="table-head">
+			<th>NAME</th>
+			<th>KILLS</th>
+			<th>SAVED</th>
+			<th>DEATHS</th>
+			<th>REVIVES</th>
+			<th>WIN</th>
+		</thead>
+		
+		<tbody>
+		  <tr class="first-row">
+		    <td>HackerMan</td>
+		    <td>10</td>
+		    <td>2</td>
+		    <td>8</td>
+		    <td>7</td>
+		    <td>2</td>
+		  </tr>
+		  
+		  <tr class="second-row">
+		    <td>DobberMan</td>
+		    <td>12</td>
+		    <td>1</td>
+		    <td>10</td>
+		    <td>11</td>
+		    <td>1</td>
+		  </tr>
+		  
+		  <tr class="third-row">
+		    <td>FireFist</td>
+		    <td>5</td>
+		    <td>0</td>
+		    <td>3</td>
+		    <td>0</td>
+		    <td>2</td>
+		  </tr>
+		  
+		  <tr class="fourth-row">
+		    <td>AquaMan</td>
+		    <td>4</td>
+		    <td>1</td>
+		    <td>1</td>
+		    <td>6</td>
+		    <td>0</td>
+		  </tr>
+		</tbody>
+	</table>   
 </body>
 </html>
